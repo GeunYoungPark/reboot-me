@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Care Notes | RE:boot</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
+  <!-- Blog CSS -->
+  <link rel="stylesheet" href="blog.css" />
+</head>
+
+<body>
+  <header class="article-topbar">
+  <a href="../index.html" class="article-brand-logo" aria-label="Go to RE:boot home">
+    <span class="brand-default">RE:boot</span>
+    <span class="brand-hover">body care | kelstar</span>
+  </a>
+</header>
+  <main class="blog-page">
+
+    <!-- Top leaf shadow background -->
+    <div class="leaf-shadow" aria-hidden="true"></div>
+
+    <!-- Blog Header -->
+    <section class="blog-hero">
+      <p class="blog-eyebrow">Blog</p>
+
+      <h1>Care Notes</h1>
+
+      <div class="title-decoration">
+        <span></span>
+        <i class="fa-solid fa-leaf"></i>
+        <span></span>
+      </div>
+
+      <p class="blog-subtitle">
+        Thoughts on health, life, and natural recovery.
+      </p>
+
+      <!-- Search -->
+      <form class="blog-search-form" id="blogSearchForm">
+        <i class="fa-solid fa-magnifying-glass search-left-icon"></i>
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search blog articles..."
+          autocomplete="off"
+        >
+
+        <span class="search-divider"></span>
+      </form>
+    </section>
+
+    <!-- Blog Tools -->
+    <section class="blog-tools">
+      <p id="resultText">Showing all articles</p>
+
+      <select id="sortSelect" class="sort-select">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="az">A–Z</option>
+      </select>
+    </section>
+
+    <!-- Latest Notes -->
+    <section class="latest-notes" id="blogList">
+      <!-- JavaScript will render blog posts here -->
+    </section>
+
+    <!-- No Result -->
+    <section class="no-results" id="noResults">
+      <h2>No articles found.</h2>
+      <p>Try another keyword:</p>
+
+      <div class="keyword-list" id="keywordList">
+        <!-- JavaScript will render suggested keywords here -->
+      </div>
+    </section>
+
+    <!-- Load More -->
+    <div class="load-more-wrap">
+      <button class="load-more-btn" id="loadMoreBtn">
+        <i class="fa-solid fa-leaf"></i>
+        Load more articles
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-column footer-brand">
+      <h3>RE:boot</h3>
+      <p>
+        Exploring body care, movement, recovery, writing,
+        and everyday wellbeing.
+      </p>
+
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="mailto:kelstarmassage@gmail.com" aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../blog/blog.html">Blog</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Address</h4>
+      <p>Sydney, Australia</p>
+      <p>kelstarmassage@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="blog-data.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>
