@@ -583,6 +583,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 54px;
 }
+/**  just for one card in about section **/
+.about-photo-row.single-row {
+  display: flex;
+  justify-content: center;
+}
 
 .about-photo-card {
   text-align: center;
@@ -690,6 +695,11 @@ body {
   .about-photo-row {
     grid-template-columns: 1fr;
     gap: 46px;
+  }
+
+  .about-photo-row.single-row {
+    display: flex;
+    justify-content: center;
   }
 
   .about-interest-row {
