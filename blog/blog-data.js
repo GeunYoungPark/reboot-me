@@ -8,6 +8,26 @@ const blogPosts = [
 //     keywords: ["pdf","download"],
 //     link: "posts/pdf-download.html"
 //   },
+{
+    title: "What Did a Home Come to Mean to Us?",
+    category: "Life",
+    date: "2026-06-25",
+    readTime: "2 min read",
+    description: "Reflections on Mel’s old house",
+    keywords: ["Property market"],
+    link: "posts/meaning-of-home-mel-house-en.html",
+    lang: "ko"
+  },
+  {
+    title: "집은 우리에게 어떤 의미가 되었을까",
+    category: "Life",
+    date: "2026-06-25",
+    readTime: "2 min read",
+    description: "Mel 할아버지의 오래된 집을 보며",
+    keywords: ["Property market"],
+    link: "posts/meaning-of-home-mel-house-ko.html",
+    lang: "en"
+  },
   {
     title: "The Party Is Over",
     category: "Life",

@@ -62,6 +62,30 @@ function searchPosts(posts, keyword) {
   });
 }
 
+function formatDate(dateString) {
+  const parts = dateString.split("-");
+  const year = parts[0];
+  const month = parts[1];
+  const day = parts[2];
+
+  const months = {
+    "01": "Jan",
+    "02": "Feb",
+    "03": "Mar",
+    "04": "Apr",
+    "05": "May",
+    "06": "Jun",
+    "07": "Jul",
+    "08": "Aug",
+    "09": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  };
+
+  return `${Number(day)} ${months[month]} ${year}`;
+}
+
 function renderPosts() {
   const searchedPosts = searchPosts(blogPosts, currentSearch);
   const sortedPosts = sortPosts(searchedPosts, currentSort);
@@ -100,6 +124,8 @@ function renderPosts() {
       <div class="blog-content">
         <div class="blog-meta">
           <span class="blog-category ${categoryClass}">${post.category}</span>
+          <span>·</span>
+          <span>${formatDate(post.date)}</span>
           <span>·</span>
           <span>${post.readTime}</span>
         </div>

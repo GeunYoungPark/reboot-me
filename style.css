@@ -886,3 +886,21 @@ body {
     width: 100%;
   }
 }
+
+.resume-download-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 14px 28px;
+  background: #6f7f5f;
+  color: #ffffff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.25s ease;
+}
+
+.resume-download-btn:hover {
+  background: #56664a;
+  transform: translateY(-2px);
+}
