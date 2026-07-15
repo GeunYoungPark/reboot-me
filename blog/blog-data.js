@@ -9,6 +9,26 @@ const blogPosts = [
 //     link: "posts/pdf-download.html"
 //   },
 {
+    title: "Do Clients Still Need Small Gifts?",
+    category: "Care Note",
+    date: "2026-07-16",
+    readTime: "2 min read",
+    description: "Thinking about skill and the relationship",
+    keywords: ["massage Technique"],
+    link: "posts/good-technique-small-gift-client-en.html",
+    lang: "en"
+  },
+  {
+    title: "고객에게 작은 선물은 필요 없을까?",
+    category: "Care Note",
+    date: "2026-07-16",
+    readTime: "2 min read",
+    description: "기술과 성의 사이에서 생각한 고객과의 관계",
+    keywords: ["Property market"],
+    link: "posts/good-technique-small-gift-client-ko.html",
+    lang: "ko"
+  },
+{
     title: "What Did a Home Come to Mean to Us?",
     category: "Life",
     date: "2026-06-25",

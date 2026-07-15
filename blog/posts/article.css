@@ -322,7 +322,7 @@ body {
     font-size: clamp(2rem, 9vw, 2.8rem);
     line-height: 1.12;
   }
-  }
+  
 
   .article-subtitle {
     font-size: 1rem;
@@ -470,52 +470,7 @@ body {
   background: #12372d;
 }
 
-
-/* PDF Download Card */
-.pdf-download-card {
-  margin: 48px 0;
-  padding: 34px 36px;
-  border-radius: 24px;
-  background: #f7f3ea;
-  border: 1px solid rgba(49, 84, 71, 0.16);
-}
-
-.pdf-label {
-  font-family: var(--sans);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #315447;
-  margin-bottom: 10px;
-}
-
-.pdf-download-card h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.pdf-download-card p {
-  margin-bottom: 24px;
-}
-
-.pdf-download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 22px;
-  border-radius: 999px;
-  background: #315447;
-  color: #fff;
-  font-family: var(--sans);
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.pdf-download-btn:hover {
-  background: #12372d;
-}
+ 
 /* 이미지 */
 
 .body-img {
@@ -528,27 +483,7 @@ body {
 }
 
 /*person note*/
-응, 이 부분은 **작은 정보 박스처럼 색깔을 따로 주면** 훨씬 예뻐요.
 
-HTML을 이렇게 감싸주세요.
-
-```html
-<section class="person-note">
-  <h3>글 속 인물</h3>
-
-  <h4>브라이언 트레이시</h4>
-
-  <p>
-    목표 설정, 시간 관리, 성공 습관 분야에서 널리 알려진 자기계발 강사이자 작가입니다.
-    이 글에서는 그가 말한 “result-oriented person”이라는 개념을 바탕으로,
-    계획보다 결과를 남기는 삶에 대해 생각해 보았습니다.
-  </p>
-</section>
-```
-
-그리고 `article.css`에 이 CSS를 추가하세요.
-
-```css
 .person-note {
   margin-top: 56px;
   padding: 28px 30px;
@@ -575,6 +510,15 @@ HTML을 이렇게 감싸주세요.
   color: #5f5146;
   line-height: 1.8;
 }
-```
 
-느낌은 **따뜻한 베이지 + 골드 브라운**이라서 RE:boot 글 분위기랑 잘 맞아요.
+/*article image*/
+
+.article-hero-image {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  margin: 0 auto 64px;
+}
+
+
