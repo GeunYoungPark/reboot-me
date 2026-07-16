@@ -171,6 +171,17 @@ body {
   font-weight: 500;
 }
 
+.article-content ul {
+  margin: 24px 0 32px;
+  padding-left: 2rem;
+  list-style-position: outside;
+}
+
+.article-content li {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
 /* Button */
 
 .article-actions {

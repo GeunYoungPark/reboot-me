@@ -9,6 +9,26 @@ const blogPosts = [
 //     link: "posts/pdf-download.html"
 //   },
 {
+    title: "Three major risks That Can Make Retirement Difficult After 50 in Australia",
+    category: "Life",
+    date: "2026-07-17",
+    readTime: "5 min read",
+    description: "Property, health, and business risks to think about before retirement",
+    keywords: ["life","retirement"],
+    link: "posts/three-retirement-risks-after-50-australia-en.html",
+    lang: "en"
+  },
+  {
+    title: "호주에서 50대 이후 노후를 어렵게 만드는 세 가지 착각",
+    category: "Life",
+    date: "2026-07-17",
+    readTime: "5 min read",
+    description: "집, 건강, 사업에 대해 50대 이후 반드시 생각해야 할 것들",
+    keywords: ["life","retirement"],
+    link: "posts/three-retirement-risks-after-50-australia-ko.html",
+    lang: "ko"
+  },
+{
     title: "Do Clients Still Need Small Gifts?",
     category: "Care Note",
     date: "2026-07-16",
